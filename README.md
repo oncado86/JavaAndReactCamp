@@ -4,7 +4,7 @@
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/oncado86/JavaAndReactCamp?label=Commit%20Activity&style=plastic">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oncado86/JavaAndReactCamp?label=Last%20Commit&style=plastic">
 <img alt="GitHub" src="https://img.shields.io/github/license/oncado86/JavaAndReactCamp?label=License&style=plastic">
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=oncado86.JavaCamp_2022&right_color=lightgrey&format=true&left_text=My%20Page%20Visitors">
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=oncado86.JavaAndReactCamp&right_color=lightgrey&format=true&left_text=My%20Page%20Visitors">
 <br>
 <br>
 <pre>
