@@ -11,17 +11,17 @@ import java.util.Scanner;
  * @see * JAVA Yazılım Geliştirici Kampı 2022
  * 
  * @apiNote
- *      * Sayı Listede Var Mı?
+ *          * Sayı Listede Var Mı?
  */
 public class MiniProjeSayıBulma {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Integer> theNumberList = new ArrayList<Integer>();        
+        List<Integer> theNumberList = new ArrayList<Integer>();
         theNumberList = createList();
 
         System.out.print("Please enter a number for search: ");
-        int theNumbertoSearch; 
+        int theNumbertoSearch;
         theNumbertoSearch = getNumber();
         scanner.close();
         System.out.println(isTheNumberOnTheLiString(theNumbertoSearch, theNumberList));
@@ -29,6 +29,7 @@ public class MiniProjeSayıBulma {
 
     /**
      * Sayı listesi oluşturur
+     * 
      * @return sayı listesi (List)
      */
     private static List<Integer> createList() {
@@ -40,7 +41,7 @@ public class MiniProjeSayıBulma {
             if (number == -1)
                 break;
             list.add(number);
-        }        
+        }
 
         return list;
     }
@@ -57,7 +58,6 @@ public class MiniProjeSayıBulma {
         try {
             Scanner readConsole = new Scanner(System.in);
             // number = Integer.parseInt(readConsole.next());
-
             number = readConsole.nextInt();
             readConsole.close();
             return number;
