@@ -26,9 +26,9 @@
             <details>
             <summary> Education</summary>
                 <ul>
-                    <!-- <li>
-                        <a href="#" target="_blank">Intro</a>
-                    </li> -->
+                    <li>
+                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day1/Education/intro" target="_blank">Intro</a>
+                    </li>
                 </ul>
             </details>
         </li>
