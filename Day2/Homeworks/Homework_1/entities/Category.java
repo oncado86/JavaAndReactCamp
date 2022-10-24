@@ -1,4 +1,4 @@
-package Homeworks.h01_oop.entities;
+package Homeworks.Homework_1.entities;
 
 public class Category {
     private int id;

@@ -120,7 +120,7 @@
             <summary> Homeworks</summary>
                 <ul>
                     <li>
-                        <a href="#" target="_blank">OOP Demo</a>
+                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/h01_oop" target="_blank">OOP Demo</a>
                     </li>
                 </ul>
                 <ul>

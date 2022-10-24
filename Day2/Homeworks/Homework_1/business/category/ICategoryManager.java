@@ -1,7 +1,6 @@
-package Homeworks.h01_oop.business.category;
+package Homeworks.Homework_1.business.category;
 
-import Homeworks.h01_oop.entities.Category;
-
+import Homeworks.Homework_1.entities.Category;
 
 public interface ICategoryManager {
     void add(Category category);

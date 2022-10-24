@@ -1,14 +1,11 @@
-package Homeworks.h01_oop;
+package Homeworks.Homework_1;
 
-import Homeworks.h01_oop.business.Course.CourseManager;
-
-// import java.util.ArrayList;
-
-import Homeworks.h01_oop.business.category.CategoryManager;
-import Homeworks.h01_oop.business.educator.EducatorManager;
-import Homeworks.h01_oop.entities.Category;
-import Homeworks.h01_oop.entities.Course;
-import Homeworks.h01_oop.entities.Educator;
+import Homeworks.Homework_1.business.Course.CourseManager;
+import Homeworks.Homework_1.business.category.CategoryManager;
+import Homeworks.Homework_1.business.educator.EducatorManager;
+import Homeworks.Homework_1.entities.Category;
+import Homeworks.Homework_1.entities.Course;
+import Homeworks.Homework_1.entities.Educator;
 
 public class Main {
     public static void main(String[] args) {

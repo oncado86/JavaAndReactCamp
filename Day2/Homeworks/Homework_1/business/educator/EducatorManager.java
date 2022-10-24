@@ -1,8 +1,9 @@
-package Homeworks.h01_oop.business.educator;
+package Homeworks.Homework_1.business.educator;
 
 import java.util.ArrayList;
 
-import Homeworks.h01_oop.entities.Educator;
+import Homeworks.Homework_1.entities.Educator;
+
 
 public class EducatorManager implements IEducatorManager {
 

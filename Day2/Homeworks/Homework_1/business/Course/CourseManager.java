@@ -1,8 +1,9 @@
-package Homeworks.h01_oop.business.Course;
+package Homeworks.Homework_1.business.Course;
 
 import java.util.ArrayList;
 
-import Homeworks.h01_oop.entities.Course;
+import Homeworks.Homework_1.entities.Course;
+
 
 public class CourseManager implements ICourse {
 
