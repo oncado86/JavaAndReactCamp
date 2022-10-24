@@ -19,7 +19,7 @@ public class CourseManager implements ICourse {
         for (Course course : courses) {
             System.out.println(String.format(
                     "Kurs Adı: %s\nAçıklama: %s\nKategori: %s\nEğitmen: %s %s",
-                    course.getName(), course.getDescription(), course.getCategory(),
+                    course.getName(), course.getDescription(), course.getCategory().getName(),
                     course.getEducator().getFirstName(), course.getEducator().getLastName()));
         }
 
