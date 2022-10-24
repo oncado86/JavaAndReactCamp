@@ -228,6 +228,10 @@
                             <details>
                                 <summary> Homework 2</summary>
                                     <ul>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_2"
+                                                target="_blank">A simple user, instructor, student structure</a>
+                                        </li>
                                     </ul>
                             </details>
                         </ul>
