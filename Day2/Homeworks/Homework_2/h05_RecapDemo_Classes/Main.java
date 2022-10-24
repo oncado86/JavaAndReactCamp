@@ -4,7 +4,7 @@ package Homeworks.Homework_2.h05_RecapDemo_Classes;
  * @version 1.0
  * @author <a href="https://github.com/oncado86">OnCaDo</a>
  * @category JAVA
- * @see * JAVA Yazılım Geliştirici Kampı 2022
+ * @see * JAVA & React Yazılım Geliştirici Kampı
  * 
  * @apiNote
  **          Basit Hesaplamalar
