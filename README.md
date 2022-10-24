@@ -120,12 +120,32 @@
             <summary> Homeworks</summary>
                 <ul>
                     <li>
-                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/h01_oop" target="_blank">OOP Demo</a>
+                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_1" target="_blank">OOP Demo</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#" target="_blank">--</a>
+                        <a href ="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_2/h01_Methods" target="_blank">Methods</a>
+                    </li>
+                    <li>
+                        <a href ="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_2/h02_Methods2" target="_blank">Methods 2</a>
+                    </li>
+                    <li>
+                        <a href ="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_2/h03_VariableArguments" target="_blank">Variable Arguments</a>
+                    </li>
+                    <li>
+                        <a href ="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_2/h04_Classes" target="_blank">Classes</a>
+                    </li>
+                    <ul>
+                        <li>
+                            <a href ="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_2/h05_RecapDemo_Classes" target="_blank">Recap Demo</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <a href ="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_2/h06_ClassesWithAttributes_GetterSetter_Constructor" target="_blank">Classes With Attributes & Getter-Setter & Constructor</a>
+                    </li>
+                    <li>
+                        <a href ="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day2/Homeworks/Homework_2/h07_MethodOverloading" target="_blank">Method Overloading</a>
                     </li>
                 </ul>
             </details>
