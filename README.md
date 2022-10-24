@@ -203,32 +203,34 @@
                 </details>
                 <details>
                     <summary> Homeworks</summary>
-                        <details>
-                            <summary> Homework 1</summary>
-                                <ul>
-                                    <li>
-                                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h01_Inheritance"
-                                            target="_blank"> Inheritance</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h02_InheritanceDemo"
-                                            target="_blank"> Inheritance Demo</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h03_polymorphismDemo"
-                                            target="_blank"> Polymorphism Demo</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h04_overriding"
-                                            target="_blank"> Overriding</a>
-                                    </li>
-                                </ul>
-                        </details>
-                        <details>
-                            <summary> Homework 2</summary>
-                                <ul>
-                                </ul>
-                        </details>
+                        <ul>
+                            <details>
+                                <summary> Homework 1</summary>
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h01_Inheritance"
+                                                target="_blank"> Inheritance</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h02_InheritanceDemo"
+                                                target="_blank"> Inheritance Demo</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h03_polymorphismDemo"
+                                                target="_blank"> Polymorphism Demo</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Homeworks/Homework_1/h04_overriding"
+                                                target="_blank"> Overriding</a>
+                                        </li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary> Homework 2</summary>
+                                    <ul>
+                                    </ul>
+                            </details>
+                        </ul>
                 </details>
             </ul>
     </details>
