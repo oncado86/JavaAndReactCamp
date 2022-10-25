@@ -20,6 +20,6 @@ public class Main {
         student.setCoursesTaken("Java", "React");
         studentManager.add(student);
         studentManager.listCourse(student);
-
     }
+
 }
