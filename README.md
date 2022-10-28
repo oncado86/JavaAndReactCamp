@@ -238,6 +238,69 @@
                 </details>
             </ul>
     </details>
+                <!--Week4--------------------------------------------->
+    <details>
+        <summary> 4th Week</summary>
+            <ul>
+                <details>
+                    <summary> Education</summary>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day3/Education/e01_oopAbstraction"
+                                    target="_blank"> Interfaces</a>
+                            </li>
+                        </ul>
+                </details>
+                <details>
+                    <summary> Homeworks</summary>
+                        <ul>
+                            <details>
+                                <summary> Homework 1</summary>
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day4/Homeworks/Homework_1/h01_abstractClasses"
+                                                target="_blank"> Abstract Classes</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day4/Homeworks/Homework_1/h02_abstractDemo"
+                                                target="_blank"> Absctact Demo</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day4/Homeworks/Homework_1/h03_interfaces_polymorphism"
+                                                target="_blank"> Ingerfaces Polymorphism</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day4/Homeworks/Homework_1/h04_interfaceDemo"
+                                                target="_blank"> Interface Demo</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day4/Homeworks/Homework_1/h05_staticDemo"
+                                                target="_blank"> Static Demo</a>
+                                        </li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary> Homework 2</summary>
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day4/Homeworks/Homework_2/oopDemo"
+                                                target="_blank"> OOP With N-Layers</a>
+                                        </li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary> Homework 3</summary>
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/oncado86/JavaAndReactCamp/tree/JavaAndReactCamp/Day4/Homeworks/Homework_3/oppGameSaleCompany"
+                                                target="_blank"> OOP: Game Sale Company</a>
+                                        </li>
+                                    </ul>
+                            </details>
+                        </ul>
+                </details>
+            </ul>
+    </details>
 
 </h3>
 </div>
