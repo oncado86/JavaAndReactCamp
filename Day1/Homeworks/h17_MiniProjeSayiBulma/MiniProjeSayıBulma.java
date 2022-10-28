@@ -59,7 +59,6 @@ public class MiniProjeSayıBulma {
             Scanner readConsole = new Scanner(System.in);
             // number = Integer.parseInt(readConsole.next());
             number = readConsole.nextInt();
-            readConsole.close();
             return number;
         } catch (Exception e) {
             System.out.println("ERROR: Please enter just number!");
