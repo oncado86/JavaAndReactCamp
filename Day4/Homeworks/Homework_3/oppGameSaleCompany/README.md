@@ -21,7 +21,7 @@ Satışlarda kampanya entegrasyonunu simule ediniz.
 </ul>
 
       EN:
-You want to write a play. We are planning to develop the backend codes for this software with JAVA. New members, sales and campaign management are required.
+<p>You want to write a play. We are planning to develop the backend codes for this software with JAVA. New members, sales and campaign management are required.</p>
 
 <code>Requirements:</code>
 <ul>

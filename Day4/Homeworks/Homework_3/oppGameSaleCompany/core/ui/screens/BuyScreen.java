@@ -8,6 +8,10 @@ import Homeworks.Homework_3.oppGameSaleCompany.entities.Game;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.Gamer;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.User;
 
+/**
+ * Satın alma ekranı.
+ * Ui sınıfından miras alır.
+ */
 public class BuyScreen extends Ui {
 
     private Game game;
@@ -18,15 +22,28 @@ public class BuyScreen extends Ui {
             "2) Main Screen"
     };
 
+    /**
+     * Paramtrelerle satın alma nesnesini oluşturur.
+     * @param game
+     * @param user
+     */
     public BuyScreen(Game game, User user) {
         this.game = game;
         this.user = (Gamer) user;
     }
 
+    /**
+     * Ekran için ayarlanmış menü listesi verir.
+     * 
+     * @return -> menü listesi (String[])
+     */
     public String[] getMainMenu() {
         return mainMenu;
     }
 
+    /**
+     * Kullanıcının oyun satın almasını sağlar
+     */
     public void buyGame() {
         int answer;
         answer = getMenuAnswer();
@@ -43,6 +60,9 @@ public class BuyScreen extends Ui {
 
     }
 
+    /**
+     * Satın alınmış oyunları liste halinde gösterir
+     */
     public void myGames() {
         System.out.println("Purchased games:");
         for (Game myGame : user.getGames()) {

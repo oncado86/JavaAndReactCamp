@@ -7,8 +7,16 @@ import Homeworks.Homework_3.oppGameSaleCompany.core.ui.interfaces.IVerification;
 import Homeworks.Homework_3.oppGameSaleCompany.dataAccess.user.UserDataAccess;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.Gamer;
 
+/**
+ * Kullanıcı kayıt ekranı.
+ * Ui sınıfıdan miras alır.
+ * IVerification uygular.
+ */
 public class RegisterScreen extends Ui implements IVerification {
 
+    /**
+     * Kullanıcı oluşturur
+     */
     public void creatGamer() {
 
         Gamer gamer = new Gamer();

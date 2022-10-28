@@ -6,16 +6,34 @@ import Homeworks.Homework_3.oppGameSaleCompany.entities.Gamer;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.User;
 import Homeworks.Homework_3.oppGameSaleCompany.fakeData.fakeData;
 
+/**
+ * Kullanıcı bilgileri yöneticisi.
+ * IUserDataAccess uygular
+ */
 public class UserManager implements IUserService {
 
     private IUserDataAccess userDataAccess;
     private ILogger[] logger;
 
+    /**
+     * Parametrelerle kullanıcı yöneticisi oluşturur.
+     * 
+     * @param userDataAccess -> kullanıcı veri erişim servisi (IUserDataAccess
+     *                       interface)
+     * @param logger         -> işlemleri loglayacak olan servisler (ILogger
+     *                       interface)
+     */
     public UserManager(IUserDataAccess userDataAccess, ILogger... logger) {
         this.userDataAccess = userDataAccess;
         this.logger = logger;
     }
 
+    /**
+     * Kullanıcının sistemde olup olmadığını kontrol eder
+     * 
+     * @param user -> kullanıcı (User sınıfı)
+     * @return boolean -> var / yok
+     */
     private boolean isOurUser(User user) {
         for (User u : fakeData.getGamers().values()) {
             if (u.getUserName().equals(user.getUserName()))
@@ -24,6 +42,12 @@ public class UserManager implements IUserService {
         return false;
     }
 
+    /**
+     * Sistemdeki kullanıcılara da bakarak, parametre olarak verilern kullanıcıya
+     * bir id oluşturur.
+     * 
+     * @param user -> kullanıcı (User sınıfı)
+     */
     private void createID(User user) {
         int uid = 0;
         for (Integer number : fakeData.getGamers().keySet()) {
@@ -80,6 +104,12 @@ public class UserManager implements IUserService {
         }
     }
 
+    /**
+     * Sisteme giriş yapacak olan kullanıcının bilgilerini kontrol eder.
+     * 
+     * @param user -> kullanıcı (User sınıfı)
+     * @return gamer -> kullanıcı (Gamer sınıfı)
+     */
     public User userValidationAndUserInformation(User user) {
         if (isOurUser(user)) {
             User gamer = new Gamer();
@@ -94,7 +124,6 @@ public class UserManager implements IUserService {
         }
         System.out.println("Incorrect password or username");
         return userValidationAndUserInformation(user);
-
     }
 
 }

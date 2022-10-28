@@ -3,6 +3,10 @@ package Homeworks.Homework_3.oppGameSaleCompany.dataAccess.game;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.Game;
 import Homeworks.Homework_3.oppGameSaleCompany.fakeData.fakeData;
 
+/**
+ * Oyunlar için veri erişimi katmanı.
+ * IGameDataAccess uygular.
+ */
 public class GameDataAccess implements IGameDataAccess {
 
     @Override

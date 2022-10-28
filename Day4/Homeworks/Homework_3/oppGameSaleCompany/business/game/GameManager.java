@@ -5,16 +5,33 @@ import Homeworks.Homework_3.oppGameSaleCompany.dataAccess.game.IGameDataAccess;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.Game;
 import Homeworks.Homework_3.oppGameSaleCompany.fakeData.fakeData;
 
+/**
+ * Oyun bilgileri yöneticisi
+ * IGameDataAccess uygular
+ */
 public class GameManager implements IGameService {
 
     private IGameDataAccess gameDataAccess;
     private ILogger[] logger;
 
+    /**
+     * Parametrelerle oyun yöneticisi oluşturur
+     * 
+     * @param gameDataAccess -> oyun veri erişim servisi(IgameDataAccess interface)
+     * @param logger         -> işlemleri loglayacak olan servisler (ILogger
+     *                       interface)
+     */
     public GameManager(IGameDataAccess gameDataAccess, ILogger... logger) {
         this.gameDataAccess = gameDataAccess;
         this.logger = logger;
     }
 
+    /**
+     * Oyunun sistemde olup olmadığını kontrol eder
+     * 
+     * @param game -> oyun (Game sınıfı)
+     * @return boolean -> var / yok
+     */
     private boolean isOurGame(Game game) {
         for (Game g : fakeData.getGames().values()) {
             if (g.getName().equals(game.getName()))
@@ -23,6 +40,11 @@ public class GameManager implements IGameService {
         return false;
     }
 
+    /**
+     * Sistemdeki oyunlara bakarak, parametre olarak verilen oyuna bir id oluşturur.
+     * 
+     * @param game -> oyun (Game sınıfı)
+     */
     private void createID(Game game) {
         int gid = 0;
         for (Integer number : fakeData.getGames().keySet()) {

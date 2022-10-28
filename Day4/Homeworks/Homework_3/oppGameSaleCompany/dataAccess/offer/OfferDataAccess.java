@@ -3,6 +3,10 @@ package Homeworks.Homework_3.oppGameSaleCompany.dataAccess.offer;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.Offer;
 import Homeworks.Homework_3.oppGameSaleCompany.fakeData.fakeData;
 
+/**
+ * Kampanyalar için veri erişimi katmanı.
+ * IOfferDataAccess uygular.
+ */
 public class OfferDataAccess implements IOfferDataAccess {
 
     @Override

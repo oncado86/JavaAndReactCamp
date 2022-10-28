@@ -1,7 +1,8 @@
 package Homeworks.Homework_3.oppGameSaleCompany.entities;
 
 /**
- * Kullanıcı varlık bilgileri
+ * Kullanıcı varlık bilgileri.
+ * Kullanıcı ile ilgili bilileir tutar.
  */
 public class User {
     private int id;
@@ -50,59 +51,116 @@ public class User {
     /**
      * Kullanıcı idsini ayarlar
      * 
-     * @param id -> kullanıcı idsi
+     * @param id -> kullanıcı idsi (int)
      */
     public void setId(int id) {
         this.id = id;
     }
 
     /**
-     * @return
+     * Kullanıcı adını verir
+     * 
+     * @return firstName -> kullanıcı adı (String)
      */
     public String getFirstName() {
         return firstName;
     }
 
+    /**
+     * Kullanıcı adını ayarlar
+     * 
+     * @param firstName -> kullanıcı adı (String)
+     */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
+    /**
+     * Kullanıcı soyadını verir
+     * 
+     * @return lastName -> kullanıcı soyadı (String)
+     */
     public String getLastName() {
         return lastName;
     }
 
+    /**
+     * Kullanıcı soyadını ayarlar
+     * 
+     * @param lastName -> kullanıcı soyadı (String)
+     */
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
+    /**
+     * Kullanıcı takma adını verir
+     * 
+     * @return userName -> kullanıcı takma adı (String)
+     */
     public String getUserName() {
         return userName;
     }
 
+    /**
+     * Kullanıcı takma adını ayarlar
+     * 
+     * @param userName -> kullanıcı takma adı (String)
+     */
     public void setUserName(String userName) {
         this.userName = userName;
     }
 
+    /**
+     * Kullanıcı parolasını verir
+     * 
+     * @return password -> kullanıcı parolası (String)
+     */
     public String getPassword() {
         return password;
     }
 
+    /**
+     * Kullanıcı parolasını ayarlar
+     * 
+     * @param password -> kullanıcı parolası (String)
+     */
     public void setPassword(String password) {
         this.password = password;
     }
 
+    /**
+     * Kullanıcının doğum yılını verir
+     * 
+     * @return -> kullanıcı doğum yılı (String)
+     */
     public String getYearOfBirth() {
         return yearOfBirth;
     }
 
+    /**
+     * Kullanıcının doğum yılını ayarlar
+     * 
+     * @param yearOfBirth -> kullanıcı doğum yılı (String)
+     */
     public void setYearOfBirth(String yearOfBirth) {
         this.yearOfBirth = yearOfBirth;
     }
 
+    /**
+     * Kullanıcı kimlik numarasını verir
+     * 
+     * @return -> kullanıcı kimlik numarası (String)
+     */
     public String getNationalIdentity() {
         return nationalIdentity;
     }
 
+    /**
+     * Kullanıcı kimlik numarasını ayarlar
+     * 
+     * @param nationalIdentity -> kullanıcı kimlik numarası (String)
+     */
     public void setNationalIdentity(String nationalIdentity) {
         this.nationalIdentity = nationalIdentity;
     }

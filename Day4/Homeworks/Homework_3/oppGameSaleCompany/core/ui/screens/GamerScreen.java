@@ -15,6 +15,11 @@ import Homeworks.Homework_3.oppGameSaleCompany.entities.Gamer;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.User;
 import Homeworks.Homework_3.oppGameSaleCompany.fakeData.fakeData;
 
+/**
+ * Oyuncu ekranı.
+ * Ui sınıfından miras alır.
+ * ISingOut ve IVerification uygular.
+ */
 public class GamerScreen extends Ui implements ISingOut, IVerification {
 
     private String[] mainMenuWithMyGame = { "1) Games", "2) Offers", "3) My Games", "4) View Info", "5) Edit Info",
@@ -42,7 +47,6 @@ public class GamerScreen extends Ui implements ISingOut, IVerification {
         if (gamer.getGames() == null || gamer.getGames().isEmpty() || gamer.getGames().size() < 1)
             return true;
         return false;
-
     }
 
     public void selectGame() {

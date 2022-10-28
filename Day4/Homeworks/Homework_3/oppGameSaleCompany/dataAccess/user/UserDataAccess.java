@@ -3,6 +3,10 @@ package Homeworks.Homework_3.oppGameSaleCompany.dataAccess.user;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.User;
 import Homeworks.Homework_3.oppGameSaleCompany.fakeData.fakeData;
 
+/**
+ * Kullanıcılar için veri erişimi katmanı.
+ * IUserDataAccess uygular.
+ */
 public class UserDataAccess implements IUserDataAccess {
 
     @Override

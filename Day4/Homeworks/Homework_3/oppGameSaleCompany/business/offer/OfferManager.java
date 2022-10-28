@@ -6,16 +6,33 @@ import Homeworks.Homework_3.oppGameSaleCompany.entities.Game;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.Offer;
 import Homeworks.Homework_3.oppGameSaleCompany.fakeData.fakeData;
 
+/**
+ * Kampanya bilgileri yöneticisi.
+ * IOfferService uygular
+ */
 public class OfferManager implements IOfferService {
 
     private IOfferDataAccess offerDataAccess;
     private ILogger[] loggers;
 
+    /**
+     * Parametrelerle kampanya yöneticisi oluşturur
+     * 
+     * @param offerDataAccess -> kampanya veri erişim servisi
+     * @param loggler         -> -> işlemleri loglayacak olan servisler (ILogger
+     *                        interface)
+     */
     public OfferManager(IOfferDataAccess offerDataAccess, ILogger... consoleLogger) {
         this.offerDataAccess = offerDataAccess;
         this.loggers = consoleLogger;
     }
 
+    /**
+     * Verilen oyun için kampanya olup olmadığını kontrol eder
+     * 
+     * @param game -> kampanya yapılacak oyun (Game sınıfı)
+     * @return boolean -> var / yok
+     */
     private boolean isOurOffer(Game game) {
         for (Offer o : fakeData.getOffers().values()) {
             if (o.getGame().getName().equals(game.getName()))
@@ -24,6 +41,11 @@ public class OfferManager implements IOfferService {
         return false;
     }
 
+    /**
+     * Sistemdeki kampanyalara bakarak, verilen kampanyaya bir id oluşturur.
+     * 
+     * @param offer -> kampanya (Offer sınıfı)
+     */
     private void createID(Offer offer) {
         int oid = 0;
         for (Integer number : fakeData.getOffers().keySet()) {
@@ -35,6 +57,14 @@ public class OfferManager implements IOfferService {
         offer.setId(oid);
     }
 
+    /**
+     * Verilern oyun için, verilen indirim oranı kadar indirim uygulayarak indirim
+     * sonrası fiyatı hesaplar
+     * 
+     * @param game     -> kampanya yapılacak oyun (Game sınıfı)
+     * @param discount -> kampanya indirim oranı (double)
+     * @return indirimli fiyat (double)
+     */
     private double calculateDiscountPrice(Game game, double discount) {
         return game.getPrice() - (game.getPrice() * (discount / 100));
     }

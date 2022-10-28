@@ -8,7 +8,7 @@ import Homeworks.Homework_3.oppGameSaleCompany.entities.Offer;
 import Homeworks.Homework_3.oppGameSaleCompany.entities.User;
 
 /**
- * Sistemi test etmek için kullanılacak  veri kaynağı
+ * Sistemi test etmek için kullanılacak veri kaynağı
  */
 public class fakeData {
 
@@ -28,18 +28,41 @@ public class fakeData {
         games.put(starWars.getId(), starWars);
     }
 
+    /**
+     * Admin bilgilerini geri döndürülür
+     * 
+     * @return -> admin bilgileri
+     */
     public static Admin getAdmin() {
         return admin;
     }
 
+    /**
+     * Oyuncuların bilgilerini geri döndürür.
+     * Bu bilgiler; anahtar -> değer biçimindedir.
+     * 
+     * @return -> Oyuncuların bilgileri
+     */
     public static TreeMap<Integer, User> getGamers() {
         return gamers;
     }
 
+    /**
+     * Kampanya bilgilerini geri döndürür.
+     * Bu bilgiler; anahtar -> değer biçimindedir.
+     * 
+     * @return -> Kampanya bilgileri
+     */
     public static TreeMap<Integer, Offer> getOffers() {
         return offers;
     }
 
+    /**
+     * Oyun bilgilerini geri döndürür.
+     * Bu bilgiler; anahtar -> değer biçimindedir.
+     * 
+     * @return -> Oyuncuların bilgileri
+     */
     public static TreeMap<Integer, Game> getGames() {
         return games;
     }
