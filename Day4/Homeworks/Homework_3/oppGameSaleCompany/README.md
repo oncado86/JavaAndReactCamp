@@ -38,3 +38,15 @@ Simulate the possibilities of entering a new campaign into the system, deleting 
 Simulate campaign integration in sales.
 </li>
 </ul>
+<br>
+<br>
+<code>Preview</code>
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/77399565/199350691-496fd1f3-fc84-4f3d-bc3a-f628c62ed950.png">
+<img src="https://user-images.githubusercontent.com/77399565/199350702-37e19627-9582-4dfe-a8ac-48c2170e5d95.png">
+<img src="https://user-images.githubusercontent.com/77399565/199350703-3eee72be-a16c-4bd3-84bf-04fe35c5b82f.png">
+<img src="https://user-images.githubusercontent.com/77399565/199350709-7a0c5fd1-41b2-456e-9537-303d176c5fba.png">
+<img src="https://user-images.githubusercontent.com/77399565/199350712-43c52ce2-d80e-4628-869f-3efdd6f25e6f.png">
+<img src="https://user-images.githubusercontent.com/77399565/199350714-84d9301d-35e0-45ac-9a3f-b780bba77acc.png">
+</div>
