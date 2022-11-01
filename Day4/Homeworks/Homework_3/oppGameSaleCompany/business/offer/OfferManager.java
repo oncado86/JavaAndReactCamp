@@ -112,7 +112,7 @@ public class OfferManager implements IOfferService {
     public void toList() {
         for (Offer offer : fakeData.getOffers().values()) {
             System.out.println("%d) Game: %s , Price: %,.2f ₺, Discounted Price: %,.2f".formatted(
-                    offer.getId() + 1, offer.getGame(), offer.getPrice(), offer.getDiscountedPrice()));
+                    offer.getId() + 1, offer.getGame().getName(), offer.getPrice(), offer.getDiscountedPrice()));
         }
     }
 }
