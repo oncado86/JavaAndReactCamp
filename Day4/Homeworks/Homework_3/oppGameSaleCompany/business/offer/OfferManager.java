@@ -77,7 +77,7 @@ public class OfferManager implements IOfferService {
             createID(tempOf);
             offerDataAccess.add(tempOf);
             for (ILogger iLogger : loggers) {
-                iLogger.log("Added offer: %s, new price: %,.2f".formatted(game.getName(), priceAfterDiscount));
+                iLogger.log("Added offer: %s, new price: %,.2f ₺".formatted(game.getName(), priceAfterDiscount));
             }
         } else
             System.out.println("This offer to %s already exists!".formatted(game.getName()));
