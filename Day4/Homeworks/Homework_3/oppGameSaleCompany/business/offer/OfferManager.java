@@ -111,7 +111,7 @@ public class OfferManager implements IOfferService {
     @Override
     public void toList() {
         for (Offer offer : fakeData.getOffers().values()) {
-            System.out.println("%d) Game: %s , Price: %,.2f ₺, Discounted Price: %,.2f".formatted(
+            System.out.println("%d) Game: %s , Price: %,.2f ₺, Discounted Price: %,.2f ₺".formatted(
                     offer.getId() + 1, offer.getGame().getName(), offer.getPrice(), offer.getDiscountedPrice()));
         }
     }
